@@ -61,11 +61,26 @@ ahora ya podemos hcaer uso de Docker y sus imagenes en la Raspberry con el usuar
 # Instalación Pihole mediante Docker
 ## Ejecutamos los siguientes comandos
 
+aca esta el archivo que use, lo pueden copiar y pegar 
+
+ https://github.com/rigiba/RaspberryPihole/blob/main/install_pihole_docker.sh
+ 
+ asignamos permisos
+ 
+-->  chmod 764 install_pihole_docker.sh
+
+y procedemos a ejecutar la instalación de Pihole
+
+--> sudo ./install_pihole_docker.sh
+
+## Cambiando la contraseña de acceso
 
 
-
-
-
+--> docker exec -it <numero del contenedor> pihole -a -p
+ 
+ 
+ 
+## https://github.com/geerlingguy/internet-monitoring
 
 
 
